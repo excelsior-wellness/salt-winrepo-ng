@@ -6,7 +6,7 @@
 # - remove.cmd
 
 {% set versions = ['7.12.1', '7.12.0', '7.11.2', '7.11.1', '7.11.0', '7.10.2',
-                   '6.8.0'] %}
+                   '7.3.0'] %}
 
 metricbeat:
 {% for version in versions %}
