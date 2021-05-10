@@ -180,9 +180,3 @@ processors:
 
     # Secret token for the APM Server(s).
     #secret_token:
-
-
-# ================================= Migration ==================================
-
-# This allows to enable 6.7 migration aliases
-#migration.6_to_7.enabled: true
