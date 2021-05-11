@@ -17,8 +17,3 @@ metricbeat:
     uninstaller: 'salt://win/repo-ng/salt-winrepo-ng/metricbeat/remove.cmd'
     cache_dir: True
 {% endfor %}
-
-metricbeat.yaml:
-  file.managed:
-    - name: "C:\Program Files\Metricbeat\metricbeat.yml"
-    - source: salt://win/repo-ng/salt-winrepo-ng/metricbeat/metricbeat.yml
